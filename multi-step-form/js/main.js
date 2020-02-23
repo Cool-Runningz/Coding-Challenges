@@ -7,7 +7,7 @@ function initialDisplay() {
   prevBtn.className = "hide";
 }
 
-function next() {
+function nextClick() {
   let isValid = currentStep <= 2 ? validateForm(`step-${currentStep}`) : true;
 
   if (isValid) {
