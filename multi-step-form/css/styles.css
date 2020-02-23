@@ -1,0 +1,42 @@
+body {
+  background-color: skyblue;
+  display: flex;
+  justify-content: center;
+}
+
+.step {
+  display: none;
+}
+
+form {
+  background-color: #fff;
+  border: 2px solid whitesmoke;
+  width: 22rem;
+  text-align: center;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+}
+
+input {
+  width: 50%;
+  font-size: 1rem;
+  border: 1px solid #aaaaaa;
+  border-radius: 4px;
+  margin: 0.5rem 0;
+}
+
+input.invalid {
+  background-color: #ffdddd;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
